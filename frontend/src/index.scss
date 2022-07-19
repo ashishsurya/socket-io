@@ -1,0 +1,29 @@
+body{
+  font-family: monospace;
+  background-color: indigo;
+  color: white;
+}
+
+input {
+  padding: 5px 3px;
+  &:focus {
+    outline: none;
+  }
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+
+button {
+  background-color: white;
+  padding: 5px 10px;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
